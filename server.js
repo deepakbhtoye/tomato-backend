@@ -18,8 +18,8 @@ app.use(express.json())
 
 const allowedOrigins = [
     
-    "https://tomato-userpanel.netlify.app/",
-    "https://tomato-adminpanel.netlify.app/"
+    "https://tomato-userpanel.netlify.app",
+    "https://tomato-adminpanel.netlify.app"
 ];
 
 app.use(cors({
